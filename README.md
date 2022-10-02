@@ -1,4 +1,7 @@
 APP TO-DO
+<img width="1393" alt="visualizacion APP TO-DO" src="https://user-images.githubusercontent.com/96742558/193477003-4c45621a-391c-4dda-81ee-eea192f22a30.png">
+
+
 
 En el repositorio no incluye la carpeta node_modules
 
