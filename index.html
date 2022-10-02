@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Lista de tareas</title>
+
+</head>
+<body>
+    <div class="container-md">
+        <form class="entrada-datos row pt-4 px-4">
+            <div class="input-group mb-3 col">
+                <span class="input-group-text" id="inputGroup-sizing-default">Tarea:</span>
+                <input type="text" class="form-control inputTarea" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            </div>
+            <div class="col">
+                <select class="form-select inputPrioridad" aria-label="Default select example">
+                  <option value="Urgente">Urgente</option>
+                  <option value="Intermedia">Intermedia</option>
+                  <option selected value="Normal">Normal</option>
+                </select>
+            </div>
+            <div class="col">
+                <input class="btn btn-primary añadirInput" type="button" value="Añadir" />
+            </div>
+        </form>
+        <div class="filtros row pt-4 px-4 pb-5">
+            <div class="col">
+                <select class="form-select mostrarPrioridad" aria-label="Default select example">
+                    <option selected value="">Mostrar todas</option>
+                    <option value="Urgente">Urgente</option>
+                    <option value="Intermedia">Intermedia</option>
+                    <option value="Normal">Normal</option>
+                </select>
+            </div>
+            <div class="col">
+                <input type="text" placeholder="Buscar" class="filtroLetra">
+
+            </div>
+
+
+
+        </div>
+        <div class="row">
+            <table class="table col">
+                <tbody class="mostrar-tareas" id = "data">
+              
+
+                </tbody>
+            </table>
+        </div>
+        <footer>
+            <h1 class="text-center text-white">&copy;APP TODO´S</h1>
+        </footer>
+
+    </div>
+    <script src="./main.js" type="module"></script>
+
+</body>
+</html>
