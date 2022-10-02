@@ -1,3 +1,7 @@
+APP TO-DO
+
+En el repositorio no incluye la carpeta node_modules
+
 Para desplegar correctamente la aplicación debemos ejecutar los siguientes comandos en dos terminales diferente. 
 
 Abrimos terminal 1. 
@@ -16,4 +20,6 @@ En la termnal 2 veremos el siguiente enlace:
 http://localhost:3001/
 
 Hacemos click y tendremos disponible nuestra app de lista de tareas. 
+
+
 
